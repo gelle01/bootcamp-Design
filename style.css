@@ -1,0 +1,295 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.headtable{
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    color: white;
+    border-collapse:collapse;
+    text-align: center;
+    font-family:monospace;
+    font-size: 15px;
+    width: 100%;
+    height: 15x;
+    background-color:#251156;
+    position: fixed;
+}
+
+.headTableTD{
+
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    color: white;
+    width: 170px;
+    border-collapse: collapse;
+    text-align: center;
+    font-family:monospace;
+    font-size: 22px;
+    animation: td1 5s 1;
+}
+
+@keyframes td1{
+
+    from{
+
+        background-color: aqua;
+        margin-bottom: 550px;
+    }
+    to{
+        background-color: #251156;
+        margin-top: 0px;
+    }
+}
+
+.abcButton{
+    background-color: #251156;
+    color: white;
+    width: 190px;
+    height: 75px;
+    font-size: 18px;
+    border: 0px solid;
+    cursor: pointer;
+    animation: td1 2s 1;
+
+}
+
+.contactButton{
+
+    background-color: #251156;
+    color: white;
+    width: 190px;
+    height: 75px;
+    font-size: 18px;
+    border: 0px solid;
+    cursor: pointer;
+    animation: td1 2s 1;
+
+
+}
+
+.maintable{
+    background-color: #251156;
+    width: 100%;
+    height: 650px;
+}
+
+.jointable{
+    border: opx solid white;
+    color: white;
+    height: 500px;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+
+.jointext{
+    font-size: 60px;
+    font-family: Sharp Grotesk-Light\ 25,Helvetica,sans-serif;
+    font-weight: 300;
+    line-height: 1.09;
+}
+
+.secure{
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.startButton{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #231D4E;
+    height: 50px;
+    width: 230px;
+    border-radius: 0px;
+    color: white;
+    box-shadow: 5px 5px white;
+    font-size: 20px;
+    animation: td1 2s 1;
+}
+
+.imagetable{
+    border: 0px solid white;
+    text-align: center;
+}
+
+img{
+    width: 70%;
+    height: 70%;
+    align-items:center;
+    border-radius: 100%;
+    animation: imageAnim 1s 1;
+
+}
+
+@keyframes imageAnim{
+
+    from{
+        border-radius: 0px;
+        margin-left: 200px;
+
+    }
+
+    to{
+        border-radius: 100%;
+        margin-left: 0px;
+    }
+}
+
+div{
+    animation: divAnim 3s 1;
+
+}
+
+@keyframes divAnim {
+
+    from{
+
+        margin-left: 80px;
+        color: aqua;
+        color: red;
+        color: green
+
+    }
+
+    to{
+
+        margin-left: 0px;
+        color: gold;
+        color: palevioletred;
+        color: white;
+
+    }
+}
+
+.bodycontact{
+    background-color:#251156;
+    margin: 0;
+    padding: 0px;
+
+}
+
+.maintable2{
+    background-color: #251156;
+    width: 500;
+    height: 750px;
+    color: white;
+}
+
+.contactTable{
+    margin-left: 80px;
+    margin-bottom: 100px;
+    height: 300px;
+    width: 500px;
+}
+
+.howCan{
+    font-size: 60px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: 300;
+    
+}
+
+.weAre{
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: cursive;
+}
+
+.inputtable{
+    border: 0px solid white;
+    height: 390px;
+    width: 500px;
+
+}
+
+.inputName{
+    width: 480px;
+    height: 40px;
+    background-color: #251156;
+    font-family: monospace;
+
+}
+
+.inputNumber{
+    width: 480px;
+    height: 40px;
+    background-color: #251156;
+}
+
+.inputEmail{
+    width: 480px;
+    height: 40px;
+    background-color:  #251156;
+
+}
+
+.select{
+    width: 480px;
+    height: 45px;
+    background-color: #251156;
+    color: gray;
+    font-size: 24px;
+
+}
+
+
+.maintable3{
+
+    border: 0px solid black;
+    width: 100%;
+    height: 700px;
+    background-color: white;
+
+}
+
+.programmingIMG{
+
+    width: 500px;
+    height: 300px;
+    align-items:center;
+    border-radius: 0px;
+    margin-bottom: 10px;
+}
+
+.getJobTable{
+
+    width: 100%;
+    height: 600px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+
+.getJobText{
+    font-size: 60px;
+    font-family: Sharp Grotesk-Light\ 25,Helvetica,sans-serif;
+    font-weight: 300;
+    /* line-height: 1.09; */
+
+}
+
+.invested{
+    font-size: 20px;
+    font-family: cursive;
+}
+.startButton2{
+    background-color:white;
+    height: 50px;
+    width: 230px;
+    border-radius: 0px;
+    color: black;
+    box-shadow: 5px 5px black;
+    font-size: 20px;
+    
+}
+.leftTr{
+    margin-top: 15px;
+}
+
+
